@@ -15,4 +15,10 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <properties>
+      <sonar.projectKey>ysf-joudar_jenkins-sample</sonar.projectKey>
+      <sonar.organization>ysf-joudar</sonar.organization>
+      <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+      <sonar.login>af07e614747ec53ff5caa59a566f4e63f02da2f0</sonar.login>
+  </properties>
 </project>
