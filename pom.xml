@@ -20,11 +20,13 @@
       <sonar.organization>ysf-joudar</sonar.organization>
       <sonar.host.url>https://sonarcloud.io</sonar.host.url>
       <sonar.login>af07e614747ec53ff5caa59a566f4e63f02da2f0</sonar.login>
-    <repository>
+  </properties>
+  <repositories>
+	<repository>
         <id>maven-group</id>
         <url>http://35.187.84.181:8081/repository/maven-public/</url>
     </repository>
-  </properties>
+  </repositories>
   <distributionManagement>
       <snapshotRepository>
           <id>nexus-snapshots</id>
