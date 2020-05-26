@@ -3,7 +3,6 @@ package fr.orsys.samples;
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import fr.orsys.samples.App;
 
 /**
  * Unit test for simple App.
@@ -43,13 +42,6 @@ public class AppTest
     public void testApp1()
     {
         assertTrue( true);
-    }
-    
-    @Test
-    public void isGreaterTest() {
-        System.out.println("Test JUNIT");
-        App helloWorld = new App();
-        assertTrue("Num 1 is greater than Num 2", helloWorld.isGreater(4, 3));
     }
  
 }
